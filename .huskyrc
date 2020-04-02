@@ -1,0 +1,6 @@
+{
+  "hooks": {
+    "pre-commit": "yarn run lint:fix",
+    "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+  }
+}

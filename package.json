@@ -1,0 +1,37 @@
+{
+  "name": "ts-server",
+  "version": "0.1.0",
+  "description": "TS Simple Server",
+  "main": "index.ts",
+  "repository": "git@github.com:ts-server/ts-server.git",
+  "author": "Maxime Bernard",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "ts-node-dev --respawn src/index.ts",
+    "build": "tsc src/index.ts",
+    "lint": "eslint src/**.ts*",
+    "lint:fix": "yarn lint --fix"
+  },
+  "dependencies": {
+    "typescript": "^3.8.3"
+  },
+  "devDependencies": {
+    "@types/node": "^13.9.8",
+    "@typescript-eslint/eslint-plugin": "^2.20.0",
+    "@typescript-eslint/parser": "^2.20.0",
+    "commitlint": "^8.3.5",
+    "conventional-changelog-conventionalcommits": "^4.2.3",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-functional": "^3.0.1",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-jest": "^23.8.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react-hooks": "^3.0.0",
+    "eslint-plugin-react": "^7.18.3",
+    "eslint": "^6.8.0",
+    "husky": "^4.2.3",
+    "prettier": "^2.0.1",
+    "ts-node-dev": "^1.0.0-pre.44"
+  }
+}
