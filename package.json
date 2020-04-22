@@ -22,7 +22,7 @@
     "@typescript-eslint/parser": "^2.29.0",
     "commitlint": "^8.3.5",
     "conventional-changelog-conventionalcommits": "^4.2.3",
-    "eslint-config-prettier": "^6.10.0",
+    "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-functional": "^3.0.1",
     "eslint-plugin-import": "^2.20.1",
     "eslint-plugin-jest": "^23.8.0",
