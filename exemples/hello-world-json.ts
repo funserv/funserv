@@ -1,3 +1,3 @@
-import { serve } from '../src/server';
+import { serve } from '..';
 
 serve({ msg: 'Hello World' });
