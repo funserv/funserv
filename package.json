@@ -14,9 +14,10 @@
     "Server"
   ],
   "scripts": {
-    "start": "ts-node-dev --respawn src/index.ts",
-    "build": "tsc src/index.ts",
+    "start": "ts-node-dev --respawn index.ts",
+    "test": "jest --forceExit --coverage --verbose",
     "lint": "eslint src/**.ts*",
+    "lint:test": "eslint test/**.ts*",
     "lint:fix": "yarn lint --fix",
     "release": "yarn np"
   },
@@ -24,7 +25,9 @@
     "typescript": "^3.9.5"
   },
   "devDependencies": {
+    "@types/jest": "^24.0.23",
     "@types/node": "^14.0.11",
+    "@types/supertest": "^2.0.9",
     "@typescript-eslint/eslint-plugin": "^2.34.0",
     "@typescript-eslint/parser": "^2.34.0",
     "commitlint": "^8.3.5",
@@ -38,8 +41,11 @@
     "eslint-plugin-react": "^7.20.0",
     "eslint-plugin-react-hooks": "^4.0.4",
     "husky": "^4.2.5",
+    "jest": "^24.9.0",
     "np": "^6.2.4",
     "prettier": "^2.0.5",
+    "supertest": "^4.0.2",
+    "ts-jest": "^24.1.0",
     "ts-node-dev": "^1.0.0-pre.44"
   }
 }

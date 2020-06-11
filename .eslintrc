@@ -111,6 +111,8 @@
 
     "functional/no-expression-statement": "off",
     "functional/functional-parameters": "off",
-    "functional/no-conditional-statement": "off"
+    "functional/no-conditional-statement": "off",
+
+    "jest/expect-expect": "off"
   }
 }
