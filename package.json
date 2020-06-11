@@ -1,7 +1,7 @@
 {
   "name": "funserv",
   "version": "0.2.0",
-  "description": "TS Simple Server",
+  "description": "Functional and Simple TypeScript HTTP Server",
   "main": "index.ts",
   "repository": "git@github.com:funserv/funserv.git",
   "author": "Maxime Bernard",
