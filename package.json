@@ -7,6 +7,12 @@
   "author": "Maxime Bernard",
   "license": "MIT",
   "private": false,
+  "keywords": [
+    "TypeScript",
+    "Functional",
+    "HTTP",
+    "Server"
+  ],
   "scripts": {
     "start": "ts-node-dev --respawn src/index.ts",
     "build": "tsc src/index.ts",
