@@ -30,7 +30,7 @@
     "@types/supertest": "^2.0.9",
     "@typescript-eslint/eslint-plugin": "^2.34.0",
     "@typescript-eslint/parser": "^2.34.0",
-    "commitlint": "^13.1.0",
+    "commitlint": "^17.4.1",
     "conventional-changelog-conventionalcommits": "^5.0.0",
     "eslint": "^7.26.0",
     "eslint-config-prettier": "^8.3.0",
