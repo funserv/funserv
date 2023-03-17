@@ -22,7 +22,7 @@
     "release": "yarn np"
   },
   "dependencies": {
-    "typescript": "^3.9.5"
+    "typescript": "^5.0.2"
   },
   "devDependencies": {
     "@types/jest": "^26.0.0",
