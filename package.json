@@ -41,7 +41,7 @@
     "husky": "^8.0.3",
     "jest": "^24.9.0",
     "np": "^7.0.0",
-    "prettier": "^2.0.5",
+    "prettier": "^3.3.2",
     "supertest": "^6.0.0",
     "ts-jest": "^24.1.0",
     "ts-node-dev": "^2.0.0"
