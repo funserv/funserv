@@ -4,7 +4,7 @@ export type Config = {
   readonly welcomingNoContent: boolean;
 };
 
-export const defaultConfig: Config = {
+const defaultConfig: Config = {
   port: 4280,
   hostname: '0.0.0.0',
   welcomingNoContent: true,
