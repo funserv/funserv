@@ -33,9 +33,14 @@
     "plugin:@typescript-eslint/eslint-recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:@typescript-eslint/recommended-requiring-type-checking",
-    "plugin:functional/external-recommended",
-    "plugin:functional/recommended"
+    "plugin:functional/external-typescript-recommended"
   ],
+  "settings": {
+    "import/resolver": {
+      "typescript": true,
+      "node": true
+    }
+  },
   "rules": {
     "prettier/prettier": "error",
     "@typescript-eslint/array-type": "error",
