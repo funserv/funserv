@@ -1,6 +1,6 @@
 {
   "name": "funserv",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Functional and Simple TypeScript HTTP Server",
   "main": "index.ts",
   "repository": "git@github.com:funserv/funserv.git",
