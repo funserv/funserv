@@ -40,7 +40,7 @@ export const answer = (
     typeof something === 'symbol'
   ) {
     res.writeHead(200, { 'content-type': 'text/html' });
-    res.end(something);
+    res.end(something.toString());
     return;
   }
 
