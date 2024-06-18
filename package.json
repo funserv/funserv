@@ -18,15 +18,15 @@
     "test": "jest --forceExit --coverage --verbose",
     "lint": "eslint src/**.ts*",
     "lint:test": "eslint test/**.ts*",
-    "lint:fix": "yarn lint --fix",
-    "release": "yarn np"
+    "lint:fix": "npm run lint --fix",
+    "release": "np"
   },
   "dependencies": {
     "typescript": "^5.4.2"
   },
   "devDependencies": {
     "@types/jest": "^26.0.0",
-    "@types/node": "^18.11.18",
+    "@types/node": "^20.14.5",
     "@types/supertest": "^2.0.9",
     "@typescript-eslint/eslint-plugin": "^7.13.0",
     "@typescript-eslint/parser": "^7.13.0",
