@@ -1,11 +1,18 @@
+import { IncomingMessage, ServerResponse } from 'http';
+
+export type ServableHandler = (
+  req: IncomingMessage,
+  res: ServerResponse,
+) => Servable;
+
 export type Servable =
   | string
   | number
   | bigint
   | boolean
   | symbol
-  | {}
-  | Function
+  | Record<string, unknown>
+  | ServableHandler
   | undefined
   | null;
 
