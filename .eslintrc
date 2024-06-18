@@ -1,27 +1,19 @@
 {
   "env": {
     "browser": true,
-    "es6": true
+    "es6": true,
   },
   "globals": {
     "Atomics": "readonly",
-    "SharedArrayBuffer": "readonly"
+    "SharedArrayBuffer": "readonly",
   },
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
-    "project": [
-      "./tsconfig.json"
-    ],
+    "project": ["./tsconfig.json"],
     "ecmaVersion": 2020,
-    "sourceType": "module"
+    "sourceType": "module",
   },
-  "plugins": [
-    "prettier",
-    "jest",
-    "@typescript-eslint",
-    "import",
-    "functional"
-  ],
+  "plugins": ["prettier", "jest", "@typescript-eslint", "import", "functional"],
   "extends": [
     "eslint:recommended",
     "prettier",
@@ -33,14 +25,8 @@
     "plugin:@typescript-eslint/eslint-recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:@typescript-eslint/recommended-requiring-type-checking",
-    "plugin:functional/external-typescript-recommended"
+    "plugin:functional/external-typescript-recommended",
   ],
-  "settings": {
-    "import/resolver": {
-      "typescript": true,
-      "node": true
-    }
-  },
   "rules": {
     "prettier/prettier": "error",
     "@typescript-eslint/array-type": "error",
@@ -62,8 +48,8 @@
     "@typescript-eslint/restrict-template-expressions": [
       "error",
       {
-        "allowNumber": true
-      }
+        "allowNumber": true,
+      },
     ],
     "@typescript-eslint/strict-boolean-expressions": "error",
     "@typescript-eslint/switch-exhaustiveness-check": "error",
@@ -86,24 +72,24 @@
           "parent",
           "internal",
           "external",
-          "builtin"
+          "builtin",
         ],
         "newlines-between": "never",
         "alphabetize": {
-          "order": "asc"
-        }
-      }
+          "order": "asc",
+        },
+      },
     ],
     "import/no-default-export": "error",
     "import/no-unused-modules": [
       "warn",
       {
-        "unusedExports": true
-      }
+        "unusedExports": true,
+      },
     ],
     "functional/no-expression-statement": "off",
     "functional/functional-parameters": "off",
     "functional/no-conditional-statement": "off",
-    "jest/expect-expect": "off"
-  }
+    "jest/expect-expect": "off",
+  },
 }
