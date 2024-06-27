@@ -19,7 +19,8 @@
     "lint": "eslint src/**.ts*",
     "lint:test": "eslint test/**.ts*",
     "lint:fix": "npm run lint --fix",
-    "release": "np"
+    "release": "np",
+    "prepare": "husky"
   },
   "dependencies": {
     "typescript": "^5.4.2"
